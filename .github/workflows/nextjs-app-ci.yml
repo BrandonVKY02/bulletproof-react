@@ -4,6 +4,7 @@ on:
   pull_request:
     branches: [master]
     paths: [apps/nextjs-app/**]
+    types: closed
 
 jobs:
   build:
